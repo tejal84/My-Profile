@@ -6,25 +6,64 @@
     <style>
         .hobbies {
             color: blueviolet;
-            background-color: blanchedalmond; }
+            background-color: blanchedalmond;
+            list-style-type: square;
+
+        }
 
         h4 {
             color: brown;
             background-color: beige;
-           }
+        }
 
+        .nav_item {
+            font-size: larger;
+            font-weight: bold;
+
+        }
+
+        #nav_bar {
+            font-size: larger;
+            font-weight: bolder;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
+            font-style: italic;
+            
+        }
+        table tr th td{
+            border-style: solid;
+            border-width: 6px;
+            border-color: blue;
+            border: 6px solid chartreuse
+        }
+        .body{
+            background-color: rgb(189, 248, 229);
+        }
+        
+
+    
     </style>
 
 
-    }
+
 </head>
 
-<body>
+<body class="body">
+   
     <h3 style="color: red; background-color: blanchedalmond;"> My name is mohit sharma</h3>
-    <p> i am engineering graduate</p>
+    <p class="nav_item"> i am engineering graduate</p>
     <h4> my favourite cousine is <span style="color: aquamarine; background-color: brown;">indian</span></h4>
-    <h4> My father is farmer</h4>
-    <h2 class="hobbies"> my hobbies are reading books</h2>
+    <h4 id="nav_bar"> My father is farmer</h4>
+    <h2 class="hobbies"> my hobbies are</h2>
+    <ul class="hobbies">
+        <li>cookin</li>
+        <li>reading</li>
+        <li>wathching sports</li>
+        <li>travelling</li>
+    </ul>
+    <h1> my favourite sport is cricket</h1>
 
 </body>
 
