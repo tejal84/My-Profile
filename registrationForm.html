@@ -10,14 +10,23 @@
             
         }
         form{
-            width: fit-content;
+            width: auto;
 
         }
-        input[type="text"], input[type="number"]{
+        input[type="text"], input[type="number"],input[type="date"], input[type="checkbox"], 
+        input[type="radio"]{
+
+        
             color: blue;
     background-color: rgb(228, 228, 237);
     border-radius: 10px;  
        
+}
+label {
+    color: blue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 
@@ -33,29 +42,19 @@
         color: blue;
     background-color: rgb(233, 154, 154);
     border-radius: 10px;
+    width: 150px;
     
  }
 
  button{
     color: blue;
     background-color: rgb(233, 154, 154);
+
+    width: 150px;
     border-radius: 10px;
- }
+    }
 
- 
- 
-        
-
-    
-    
-    
-    
-
-        
-
-
-
-    </style>
+  </style>
     
     
     
@@ -67,7 +66,7 @@
     
     <h2> Student Registration form</h2>
     <form >
-        <table>
+        <table width="50%">
             <tbody >
                 <tr>
                     <td> <label> First Name </label> </td>
@@ -108,20 +107,20 @@
                 <tr>
                     <td> <label> Tranings </label> </td>
                     <td>
-                        <input type="checkbox">
-                        <lable> Angular </lable>
-                        <input type="checkbox">
-                        <lable> React </lable>
-                        <input type="checkbox">
-                        <lable> Java </lable>
-                        <input type="checkbox">
-                        <lable> Testing </lable>
+                        <input type="checkbox"> <lable> Angular </lable>
+                       
+                        <input type="checkbox"> <lable> React </lable>
+                       
+                        <input type="checkbox"> <lable> Java </lable>
+                       
+                        <input type="checkbox"> <lable> Testing </lable>
+                       
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <lable> Gender </lable>
-                    </td>
+                   
+                    <td>  <lable> Gender </lable> </td>
+                    
                     <td>
                         <input type="radio" name="gender"> <label> Female </label>
                         <input type="radio" name="gender"> <label> male </label>
